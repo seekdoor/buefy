@@ -509,6 +509,11 @@ export default [
                 description: 'Custom top-left (opposite side of top pagination)',
                 props: '—'
             },
+            {
+                name: '<code>pagination</code>',
+                description: 'Table custom pagination',
+                props: '—'
+            },
         ],
         events: [
             {
@@ -813,7 +818,7 @@ export default [
             {
                 name: 'default',
                 description: '<strong>Required</strong>, table column body',
-                props: '<code>row: Object</code>, <code>column: Vue Object</code>, <code>index: Number</code>, <code>colindex: Number</code>'
+                props: '<code>row: Object</code>, <code>column: Vue Object</code>, <code>index: Number</code>, <code>colindex: Number</code>, <code>toggleDetails: Function</code>, <code>isActiveDetailRow: Function</code>'
             },
             {
                 name: '<code>header</code>',
